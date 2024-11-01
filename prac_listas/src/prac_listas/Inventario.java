@@ -38,7 +38,7 @@ public class Inventario {
     }
     public void verObjetos(){ //Metodo para ver los objetos ingresados en la lista (listaInventario)
         int cont=1;
-        for(Object i : listaInventario){
+        for(Object i : listaInventario){ //recorre la lista de objetos (Object) y las muestra en pantalla
             System.out.println("--OBJETO "+cont+"--");
             cont=cont+1;
             System.out.println(i);
